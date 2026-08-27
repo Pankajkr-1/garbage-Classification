@@ -1,0 +1,62 @@
+{
+  "Bouteille_plastique": {
+    "display_name": "Plastic Bottle",
+    "recyclable": true,
+    "method": "Rinse and place in the plastics recycling bin. Flatten to save space.",
+    "tips": [
+      "Remove the cap and recycle separately if your facility requires it",
+      "Check the resin code (number in the triangle) — most PET/HDPE bottles are widely accepted"
+    ]
+  },
+  "Brique_en_carton": {
+    "display_name": "Carton / Tetra Pak",
+    "recyclable": true,
+    "method": "Rinse out any liquid residue and place in the carton/paper recycling stream.",
+    "tips": [
+      "These are multi-layer (paper + plastic + foil) so they need a specialized recycling stream, not regular paper",
+      "Flatten before disposal"
+    ]
+  },
+  "Emballage_metallique": {
+    "display_name": "Metal Packaging",
+    "recyclable": true,
+    "method": "Rinse and place in the metal/cans recycling bin.",
+    "tips": [
+      "Cans and foil are infinitely recyclable — no quality loss",
+      "Crush cans to save space if your program allows it"
+    ]
+  },
+  "Ordure_ménagère": {
+    "display_name": "Household Waste (General Trash)",
+    "recyclable": false,
+    "method": "Dispose of in the general waste bin — this item is not recyclable through standard streams.",
+    "tips": [
+      "Check if any part of the item can be separated and recycled before discarding",
+      "Consider whether a reusable alternative exists for next time"
+    ]
+  },
+  "Papier_Carton": {
+    "display_name": "Paper / Cardboard",
+    "recyclable": true,
+    "method": "Place in the paper/cardboard recycling bin. Keep it dry and free of food residue.",
+    "tips": [
+      "Flatten boxes to save space",
+      "Greasy or food-stained paper (e.g. pizza boxes) often can't be recycled — check locally"
+    ]
+  },
+  "Verre": {
+    "display_name": "Glass",
+    "recyclable": true,
+    "method": "Rinse and place in the glass recycling bin, sorted by color if your local facility requires it.",
+    "tips": [
+      "Glass is 100% and endlessly recyclable",
+      "Remove lids/caps — they're usually a different material"
+    ]
+  },
+  "unknown": {
+    "display_name": "Unrecognized Item",
+    "recyclable": false,
+    "method": "Could not confidently classify this item — please check local guidelines manually.",
+    "tips": ["Try a clearer, well-lit photo with the item centered and filling the frame"]
+  }
+}
